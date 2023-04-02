@@ -1,0 +1,64 @@
+.port-layer{
+    background-color: rgba(26, 188, 156, 0.9);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition-duration: 0.5s;
+    opacity:0;
+   
+ }
+ .port-layer i{
+     color:white;
+ }
+ .port-layer:hover{
+     opacity: 1;
+ }
+ .icon-light{
+    position: absolute;
+    z-index: 1;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #1abc9c;
+    opacity: 1;
+    cursor: pointer;
+ }
+ .lightbox{
+    padding-top: 8rem;
+    padding-bottom: 9rem;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+ }
+ .portcopy{
+    padding-top:7rem;
+ }
+ .line-star{
+    
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+ }
+ .layer{
+    margin-right: 1rem;
+    
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+ }
+ .icon i{
+    color:#2c3e50;
+ }
+ .head h2{
+    color:#2c3e50;
+ }
+ 

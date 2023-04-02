@@ -1,0 +1,73 @@
+.portfolio{
+    padding-top: 20rem;
+}
+
+.portHead{
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    font-weight: 700;
+}
+.port-inner{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.port-layer{
+   background-color: rgba(26, 188, 156, 0.9);
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   transition-duration: 0.5s;
+   opacity:0;
+}
+.port-layer i{
+    color:white;
+}
+.port-layer:hover{
+    opacity: 1;
+}
+/* lightBoxContainer */
+.box-inner{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.lightBox{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0 solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.75rem;
+    outline: 0;
+    margin: auto;
+}
+.lightBox .close{
+    position: absolute;
+    z-index: 1;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #1abc9c;
+    opacity: 1;
+}
+.lightBox h2{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #2c3e50;
+}
+
+

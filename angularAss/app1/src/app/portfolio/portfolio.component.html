@@ -1,0 +1,96 @@
+<section class="portfolio position-relative"id="PORTFOLIO">
+    <div class="port-content">
+        <div class="port-item">
+            <div class="portHead mb-4">
+                <h2>PORTFOLIO</h2>
+            </div>
+            <div class="container m-auto">
+                <div class="row">
+                        <div class="col-md-4 p-4 rounded-4"*ngFor="let x of port" (click)="view=false; portImg = x">
+                            <div class="port-inner">
+                                <div class="port-layer position-absolute d-flex align-items-center justify-content-center text-white">
+                                    <i class="fa-solid fa-plus fa-3x"></i>
+                                    <img class="img-fluid"[src]="x.img" alt="">
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-4 p-4 rounded-4">
+                            <div class="port-inner">
+                                <div class="port-layer position-absolute d-flex align-items-center justify-content-center text-white">
+                                    <i class="fa-solid fa-plus fa-3x"></i>
+                                </div>
+        
+                                <img class="img-fluid"src="./assets/images/2.png" alt="">
+                            </div>
+        
+                        </div>
+                        <div class="col-md-4 p-4 rounded-4">
+                            <div class="port-inner">
+                                <div class="port-layer position-absolute d-flex align-items-center justify-content-center text-white">
+                                    <i class="fa-solid fa-plus fa-3x"></i>
+                                </div>
+        
+                                <img class="img-fluid"src="./assets/images/3.png" alt="">
+                            </div>
+        
+                        </div>
+                        <div class="col-md-4 p-4 rounded-4">
+                            <div class="port-inner">
+                                <div class="port-layer position-absolute d-flex align-items-center justify-content-center text-white">
+                                    <i class="fa-solid fa-plus fa-3x"></i>
+                                </div>
+        
+                                <img class="img-fluid" src="./assets/images/4.png" alt="">
+                            </div>
+        
+                        </div>
+                        <div class="col-md-4 p-4 rounded-4">
+                            <div class="port-inner">
+                                <div class="port-layer position-absolute d-flex align-items-center justify-content-center text-white">
+                                    <i class="fa-solid fa-plus fa-3x"></i>
+                                </div>
+        
+                                <img class="img-fluid"src="./assets/images/5.png" alt="">
+                            </div>
+        
+                        </div>
+                        <div class="col-md-4 p-4 rounded-4">
+                            <div class="port-inner">
+                                <div class="port-layer position-absolute d-flex align-items-center justify-content-center text-white">
+                                    <i class="fa-solid fa-plus fa-3x"></i>
+                                </div>
+        
+                                <img class="img-fluid"src="./assets/images/6.png" alt="">
+                            </div>
+        
+                        </div> -->
+                </div>
+            </div>
+        
+        </div>
+        <!-- slider -->
+        <div id="lightBoxContainer">
+            <div class="box-inner"[hidden]="view">
+                <div class="lightBox mt-2 position-absolute">
+                    <button (click)="view=true"class="close" type="button">
+                        <i class="fa-solid fa-close"></i>
+                    </button> 
+                    <div class="container text-center">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-8 ">
+                               <h2 class="mt-5 mb-2">{{portImg.tittle}}</h2>
+                               <img class="img-fluid rounded mb-5 w-15" [src]="portImg.img">
+                               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                               <button (click)="view=true" class="btn btn-primary"><i class="fa-solid fa-close"></i> close window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+    </div>
+</section>

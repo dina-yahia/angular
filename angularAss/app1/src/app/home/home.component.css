@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+h1{
+    font-size: 4rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+}
+.pSection1{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.section1 img{
+    width: 15rem;
+    margin-top: 50px;
+}
+.section1{
+    background-color: rgba(26, 188, 156, 0.9);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.line-star{
+    
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   }
+   .layer{
+      margin-right: 1rem;
+      
+      width: 100%;
+      max-width: 7rem;
+      height: 0.25rem;
+      background-color: white;
+      border-radius: 1rem;
+   }
+   .head h2{
+    color:white;
+   }
+   /* .head{
+    padding-bottom: 5rem;
+   } */
